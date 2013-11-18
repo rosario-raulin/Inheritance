@@ -2,11 +2,6 @@ package de.raulin.rosario.einfinf.inheritance;
 
 public abstract class Good {
 	
-	protected int weight;
-	
-	public int getWeight() {
-		return weight;
-	}
-	
+	public abstract int getWeight();
 	public abstract String toString();
 }
